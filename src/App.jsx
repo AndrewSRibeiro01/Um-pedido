@@ -87,7 +87,7 @@ const DivFlex = styled.div`
   margin: 0 auto;
 `
 const Div = styled.div`
-  background: linear-gradient(to right, #79bf54, #d41818 );
+  background: linear-gradient(to right, #405DE6, #F77737 );
   width: 350px;
   height: 100px;
   font-size: 32px;
