@@ -70,7 +70,7 @@ const Button5 = styled.button`
     border-radius: 50%;
     border: none;
     cursor: pointer;
-    margin-top: 350px;
+    margin-top: 130px;
 `
 const Button6 = styled.button`
     width: 150px;
@@ -81,7 +81,7 @@ const Button6 = styled.button`
     border-radius: 50%;
     border: none;
     cursor: pointer;
-    margin-top: 550px;
+    margin-top: 350px;
 `
 const DivFlex = styled.div`
   margin: 0 auto;
@@ -176,7 +176,7 @@ const App = () => {
               <Button6
                 value={botaoAtivo}
                 onClick={handleSubmit}
-                background={botaoAtivo <= 3 ? '#79bf54' : '#bf5454'}
+                background={botaoAtivo <= 3 ? '#79bf54' : '#2c2476'}
               >Quebro vey</Button6>
             )}
         </DivFlex >
